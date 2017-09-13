@@ -1,0 +1,21 @@
+1) What will happen if an index is created on a field that does not exist in any of
+the documents in the collection?
+>> D
+2)) How do a B-tree and a binary tree differ?
+>> a
+3) Which index would you create to optimize your reads if you used only these queries in your application, plus queries that differed from these only in the
+value?
+>> a
+4) A MongoDB index can have keys of different types (i.e., ints, dates, string)
+>> a
+5) If an index is created with the options document,{ unique : true }can 2 documents which do not include the field that is indexed exist in the
+same collection?
+>> b 
+6) Hint always works
+>> b
+7) What are some disadvantages to having indexes that are not needed or not used? Check all that apply.
+>> b,c 
+8 ) Which ops are safe to kill (without any special effort or clean-up or implications later beyond the obvious):
+>> a
+9)) The system profiler is on by default.
+b
